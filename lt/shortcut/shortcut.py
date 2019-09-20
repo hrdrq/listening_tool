@@ -11,4 +11,5 @@ class Shortcut:
         self.shift_left = QShortcut(QKeySequence("Shift+Left"), ui)
         self.shift_right = QShortcut(QKeySequence("Shift+Right"), ui)
         self.a = QShortcut(QKeySequence("A"), ui)
+        self.d = QShortcut(QKeySequence("D"), ui)
         self.space = QShortcut(QKeySequence("Space"), ui)
